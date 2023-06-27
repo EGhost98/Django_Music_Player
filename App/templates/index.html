@@ -17,13 +17,33 @@
       height: 100vh; /* Set the body height to full viewport height */
       margin: 0; /* Remove default body margin */
       display: flex; /* Use flexbox for centering content */
-      justify-content: center; /* Center content horizontally */
-      align-items: center; /* Center content vertically */
+      flex-direction: column; /* Arrange content vertically */
+      justify-content: space-between; /* Distribute space evenly */
+    }
+
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .container {
+      flex: 1; /* Allow the container to take remaining vertical space */
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   </style>
 </head>
 <body>
-  <nav>
+  <nav class="navbar">
+    Django Music Player
   </nav>
   <div class="contain">
     <div class="container">
@@ -52,6 +72,9 @@
         {% endfor %}
       </div>
     </div>
+  </div>
+  <div class="footer bg-dark text-light">
+    EGhost
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelement-and-player.min.js"></script>
