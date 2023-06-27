@@ -3,8 +3,8 @@
 This Django app allows users to browse and play music tracks. It provides a simple and intuitive interface for managing and playing songs.
 
 ## ScreenShots
-![image](https://github.com/EGhost98/Django_Music_Player/assets/76267623/d04fefa6-88be-479f-ae9d-a8d9065803a7)
-![image](https://github.com/EGhost98/Django_Music_Player/assets/76267623/1f96b5b4-8625-4c90-a415-c8c0280bd298)
+![image](https://github.com/EGhost98/Django_Music_Player/assets/76267623/56a5804d-1c71-42d9-8ccf-8aa0c349620a)
+![image](https://github.com/EGhost98/Django_Music_Player/assets/76267623/6418f7f3-a0a4-43dc-b6a4-7b97a72aa9c7)
 
 ## Features
 
