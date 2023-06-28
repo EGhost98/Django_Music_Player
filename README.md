@@ -40,8 +40,3 @@ This Django app allows users to browse and play music tracks. It provides a simp
 - Click on a song's album artwork or title to start playing the song.
 - Use the play/pause, next, and previous buttons to control the playback.
 - Upload songs through admin panel
-
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
