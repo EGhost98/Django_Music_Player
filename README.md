@@ -28,7 +28,7 @@ This Django app allows users to browse and play music tracks. It provides a simp
 ## Setup and Installation
 
 1. Clone the repository: `git clone <repository_url>`
-2. Navigate to the project directory: `cd Chibi_URL`
+2. Navigate to the project directory: `cd Django_Music_Player`
 3. Install the dependencies: `pip install -r requirements.txt`
 4. Run the application: `python manage.py runserver`
 5. Access the application in your web browser at: `http://localhost:8000`
